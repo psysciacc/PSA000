@@ -32,3 +32,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/psysciacc/PSA000
+BugReports: https://github.com/psysciacc/PSA000/issues
