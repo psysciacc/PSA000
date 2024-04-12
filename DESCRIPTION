@@ -1,0 +1,34 @@
+Package: PSA000
+Title: Data Archive for PSA000-demo
+Version: 0.0.0.9000
+Description: This package organises and archives data, code, and materials 
+    for the Psychological Science Accelerator project PSA000. 
+    [Short project description here].
+Authors@R: 
+    c(
+    person(
+        given = "X", 
+        family = "X", 
+        role = c("aut", "cre"), 
+        email = "x@gmail.com", 
+        comment = c(ORCID = "0000-0000-0000-0000")
+    ),
+    person(
+        given = "Y", 
+        family = "Y", 
+        role = c("aut"), 
+        email = "y@gmail.com", 
+        comment = c(ORCID = "0000-0000-0000-000X")
+    ))
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    psaverse
+Remotes:
+    psysciacc/psaverse
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
